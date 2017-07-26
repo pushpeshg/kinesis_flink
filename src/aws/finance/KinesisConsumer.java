@@ -12,8 +12,8 @@ public class KinesisConsumer {
     public static void main(String ... args) throws Exception {
         Properties consumerConfig = new Properties();
         consumerConfig.put(ConsumerConfigConstants.AWS_REGION, "us-east-1");
-        consumerConfig.put(ConsumerConfigConstants.AWS_ACCESS_KEY_ID, "AKIAJKQFHCHYWIZN43HA");
-        consumerConfig.put(ConsumerConfigConstants.AWS_SECRET_ACCESS_KEY, "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");
+        consumerConfig.put(ConsumerConfigConstants.AWS_ACCESS_KEY_ID, "XXXXXXXXXXXXXXX");
+        consumerConfig.put(ConsumerConfigConstants.AWS_SECRET_ACCESS_KEY, "XXXXXXXXXXXXXXX");
         consumerConfig.put(ConsumerConfigConstants.STREAM_INITIAL_POSITION, "LATEST");
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
